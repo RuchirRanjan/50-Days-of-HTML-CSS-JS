@@ -28,7 +28,6 @@ body {
   0% {
     transform: translate(-50%, -50%) scale(1);
   }
-
   100% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -38,7 +37,7 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0);
 }
 
 #replay {
@@ -52,4 +51,18 @@ body {
 #replay .focus {
   outline: none;
   border: none;
+}
+
+.final .show {
+  transform: translate(-50%, -50%) scale(1);
+  animation: hide 0.2s ease-out;
+}
+
+@keyframes show {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
 }
