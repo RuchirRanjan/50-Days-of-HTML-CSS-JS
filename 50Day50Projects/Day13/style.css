@@ -38,7 +38,8 @@ textarea {
 }
 
 textarea:focus {
-  
+  outline: none;
+  border: none;
 }
 
 .tag {
