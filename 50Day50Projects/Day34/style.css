@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: cornflowerblue;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   height: 100vh;
@@ -126,11 +127,12 @@ h4 {
 }
 
 #replay{
-  background-color: #349;
-  border-radius: 3px;
+  background-color: blue;
+  border-radius: 5px;
   border: none;
-  color: aquamarine;
-  padding: 5px;
+  color: aqua;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -160,4 +162,12 @@ h4 {
 #replay:hover span:after{
   opacity: 1;
   right: 0;
+}
+
+h1 {
+  color: springgreen;
+}
+
+h4 {
+  color: cyan;
 }
