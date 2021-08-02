@@ -125,7 +125,39 @@ h4 {
   }
 }
 
-#replay {
-  background-color: #0000ff;
-  color: #00ffff;
+#replay{
+  background-color: #349;
+  border-radius: 3px;
+  border: none;
+  color: aquamarine;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#replay span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+#replay span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#replay:hover span{
+  padding-right: 25px;
+}
+
+#replay:hover span:after{
+  opacity: 1;
+  right: 0;
 }
