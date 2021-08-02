@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: cadetblue;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ body {
 }
 
 .toggle:checked + .label {
-  background-color: aqua;
+  background-color: royalblue;
 }
 
 .ball {
