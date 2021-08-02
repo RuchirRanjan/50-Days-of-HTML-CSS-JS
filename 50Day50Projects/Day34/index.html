@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Animated Countdown</title>
+    <title>Good, Cheap, Fast</title>
   </head>
   <body>
-    <div class="counter">
-      <div class="nums">
-        <span class="in">3</span>
-        <span>2</span>
-        <span>1</span>
-        <span>0</span>
-        <div>
-          <h4>Get ready!</h4>
-        </div>
-      </div>
+    <h2>How do you want your project to be?</h2>
+    <div class="toggle-container">
+      <input type="checkbox" id="good" class="toggle" />
+      <label for="good" class="label">
+        <div class="ball"></div>
+      </label>
+      <span>Good</span>
     </div>
 
-    <div class="final">
-      <h1>Go!</h1>
-      <button id="replay">Replay</button>
+    <div class="toggle-container">
+      <input type="checkbox" id="cheap" class="toggle" />
+      <label for="cheap" class="label">
+        <div class="ball"></div>
+      </label>
+      <span>Cheap</span>
+    </div>
+
+    <div class="toggle-container">
+      <input type="checkbox" id="fast" class="toggle" />
+      <label for="fast" class="label">
+        <div class="ball"></div>
+      </label>
+      <span>Fast</span>
     </div>
     <script src="script.js"></script>
   </body>
