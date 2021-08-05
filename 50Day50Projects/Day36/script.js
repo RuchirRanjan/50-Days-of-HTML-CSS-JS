@@ -1,4 +1,5 @@
 const container = document.getElementById('container');
+// Change the colors in given array below to change the color of the squares
 const colors = [
   '#00ffff',
   '#6495ed',
@@ -6,6 +7,7 @@ const colors = [
   '#00ff7f',
   '#87ceeb',
   '#e74c3c',
+  '#7fff00',
   '#e67e22',
 ];
 const SQUARES = 500;
