@@ -6,7 +6,6 @@ const colors = [
   '#00ff7f',
   '#87ceeb',
   '#e74c3c',
-  '#8e44ad',
   '#e67e22',
 ];
 const SQUARES = 500;
@@ -14,6 +13,10 @@ const SQUARES = 500;
 for (let i = 0; i < SQUARES; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
+
+  square.addEventListener('mouseover', () => setColor(square));
+
+  square.addEventListener('mouseover', () => setColor(square));
 
   container.appendChild(square);
 }
